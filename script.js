@@ -19,3 +19,7 @@ fetch('./get_user.php')
         const userProfile = document.querySelector('.user-profile')
         userProfile.innerHTML = html;
     })
+
+function getAdmin() {
+    document.querySelector('body').innerHTML += `<div class="secret-admin">SUPPRIMER TOUTES LES DONNEES</div>`
+}
