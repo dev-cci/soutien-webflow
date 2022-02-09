@@ -13,6 +13,7 @@ $req->execute();
 $comments = $req->fetchAll();
 
 $user['comments'] = $comments;
+
 ?>
 
 <!DOCTYPE html>
@@ -47,6 +48,8 @@ $user['comments'] = $comments;
     <footer>
         Copyright
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
